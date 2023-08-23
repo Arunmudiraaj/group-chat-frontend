@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  /* background-color: #247ba0;
+  color: #ffe066; */
+  font-family: "Inter", sans-serif;
+
+  background-color: #f8dda4;
+  color: #247ba0;
+
+  /* more color combos
+    #70C1B3 - blue green
+    #F25F5C - orangeish
+    #50514F - gray
+   */
+}
+button {
+  cursor: pointer;
+}
