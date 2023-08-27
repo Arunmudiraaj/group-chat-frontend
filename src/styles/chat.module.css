@@ -1,0 +1,28 @@
+.container {
+  font-family: "Style Script", cursive;
+  font-family: "Work Sans", sans-serif;
+}
+.heading {
+  text-align: center;
+}
+.allMessages {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+.message {
+  padding: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.sendMessage {
+  width: 100%;
+  text-align: center;
+}
+.inputMsg {
+  width: 18rem;
+  padding: 0.3rem 0.5rem;
+}

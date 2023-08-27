@@ -8,9 +8,9 @@ body {
   /* background-color: #247ba0;
   color: #ffe066; */
   font-family: "Inter", sans-serif;
-
-  background-color: #f8dda4;
-  color: #247ba0;
+  background-image: url("/src/assets/background2.jpg");
+  background-size: cover;
+  color: black;
 
   /* more color combos
     #70C1B3 - blue green

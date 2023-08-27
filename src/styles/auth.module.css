@@ -12,13 +12,14 @@
   min-height: 4rem;
   text-align: center;
   padding: 0.5rem;
-  background-color: wheat;
-  border-bottom: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.36);
+  color: #319795;
   font-family: "Style Script", cursive;
   font-size: xx-large;
 }
 .formHeading {
-  color: white;
+  color: #319795;
+  color: black;
   font-weight: 600;
   font-size: large;
 }
@@ -44,11 +45,12 @@
   gap: 1rem;
   padding: 2rem 1.5rem;
   border-radius: 10px;
-  background-color: #247ba0;
+  /* background-color: #319795; */
+  background-color: rgba(255, 255, 255, 0.36);
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
 }
 .infoText {
   font-weight: 600;
@@ -59,29 +61,31 @@
   border-radius: 5px;
   font-size: medium;
   outline: none;
+  border: 1px solid black;
   width: 100%;
 }
 .submitBtn {
-  background-color: #70c1b3;
+  background-color: pink;
   align-self: center;
   padding: 5px 10px;
   font-weight: 700;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 5px;
   color: black;
 }
 .bottom {
   color: white;
+  color: #319795;
   font-size: small;
 }
 .bottomBtn {
-  color: #f8dda4;
+  color: purple;
   cursor: pointer;
 }
 .line {
   height: 1px;
   width: 100%;
-  background-color: white;
+  background-color: black;
   opacity: 0.5;
 }
 
