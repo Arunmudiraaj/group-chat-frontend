@@ -66,6 +66,7 @@ const Auth = () => {
       try {
         const res = await api.post("/user/login", body);
         console.log(res);
+        localStorage.setItem("token", res.data.token);
         navigate("/chat");
       } catch (e) {
         console.log(e);
